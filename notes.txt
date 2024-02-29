@@ -4,6 +4,9 @@ npx create-next-app@latest
 Example:
 npx create-next-app@latest nextjs-dashboard --use-npm --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
 
+Tutorial:
+https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs
+
 Chapter 1: Getting started
 
 $ npm -i # in same directory as package.json file
