@@ -5,6 +5,7 @@ Example:
 npx create-next-app@latest nextjs-dashboard --use-npm --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
 
 Tutorial:
+https://vercel.com/kevins-projects-577c7da6/nextapp
 https://nextjs.org/learn/dashboard-app/optimizing-fonts-images
 https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs
 
@@ -197,3 +198,14 @@ export default function NavLinks() {
 
 Chapter 6: Setting up your database
 
+https://vercel.com/kevins-projects-577c7da6/nextapp
+$ npm i @vercel/postgres 
+/scripts/seed.js
+/package.json
+"scripts": {
+  "build": "next build",
+  "dev": "next dev",
+  "start": "next start",
+  "seed": "node -r dotenv/config ./scripts/seed.js"
+},
+$ npm run seed
