@@ -209,3 +209,35 @@ $ npm i @vercel/postgres
   "seed": "node -r dotenv/config ./scripts/seed.js"
 },
 $ npm run seed
+
+Chapter 7: Fetching data
+/app/lib/data.ts
+https://nextjs.org/learn/dashboard-app/fetching-data
+
+Chapter 8: Static and Dynamic Rendering
+https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering
+
+Chapter 9: Streaming
+https://nextjs.org/learn/dashboard-app/streaming
+
+Chapter 11: Search and pagination
+https://nextjs.org/learn/dashboard-app/adding-search-and-pagination
+
+Chapter 12: Mutating data
+https://nextjs.org/learn/dashboard-app/mutating-data
+
+Chapter 13: Handling errors
+https://nextjs.org/learn/dashboard-app/error-handling
+
+Chapter 14: Improving accessibility
+https://nextjs.org/learn/dashboard-app/improving-accessibility
+
+Chapter 15: Adding authentication
+https://nextjs.org/learn/dashboard-app/adding-authentication
+
+Chapter 16: Adding metadata
+https://nextjs.org/learn/dashboard-app/adding-metadata
+
+Chapter 17: Next steps
+https://nextjs.org/learn/dashboard-app/next-steps
+
