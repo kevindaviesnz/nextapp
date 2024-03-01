@@ -52,3 +52,26 @@ export default function InvoiceStatus({ status }: { status: string }) {
 
 
 Chapter 3: Optimising Fonts and Images
+
+Adding a primary font:
+
+/app/ui/fonts.ts
+import { Inter } from 'next/font/google';
+export const inter = Inter({ subsets: ['latin'] });
+
+/app/layout.tsx
+import '@/app/ui/global.css';
+import { inter } from '@/app/ui/fonts';
+ 
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className={`${inter.className} antialiased`}>{children}</body>
+    </html>
+  );
+}
+
